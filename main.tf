@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "terraform-tfstate-svc2"
+    bucket         = "terraform-tfstate"
     key            = "chat-server/terraform.tfstate"
     region         = "ap-northeast-2"
     dynamodb_table = "terraform-tfstate-lock"
