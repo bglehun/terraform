@@ -1,5 +1,5 @@
 #resource "aws_s3_bucket" "terraform_tfstate" {
-#  bucket = "terraform-tfstate-svc2"
+#  bucket = "terraform-tfstate"
 #}
 #
 #resource "aws_s3_bucket_versioning" "versioning" {
